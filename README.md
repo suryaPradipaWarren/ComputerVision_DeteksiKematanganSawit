@@ -40,7 +40,12 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
   <img src="Result/Akurasi dan Loss.png" width="500"/>
 - ### Confusion Matrix
   <img src="Result/CM.png" width="500"/>
-- # Aplikasi
+- ### Aplikasi
+  <p align="center">
+  <img src="Result/Halaman Home.jpg" width="250"/>
+  <img src="Result/Halaman Deteksi.jpg" width="250"/>
+  <img src="Result/Halaman Hasil.jpg.png" width="250"/>
+</p>
 
 ---
 
