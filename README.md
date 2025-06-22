@@ -37,9 +37,13 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
 
 ## 🚀 Hasil 
 - ### Grafik akurasi dan loss model
+  <p align="center">
   <img src="Result/Akurasi dan Loss.png" width="500"/>
+  </p>
 - ### Confusion Matrix
+  <p align="center">
   <img src="Result/CM.png" width="500"/>
+  </p>
 - ### Aplikasi
   <p align="center">
   <img src="Result/Halaman Home.jpg" width="250"/>
