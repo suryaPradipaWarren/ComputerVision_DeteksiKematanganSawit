@@ -37,6 +37,7 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
 
 ## 🎯 Progress
 - Model CNN telah dikembangkan dengan menggunakan pre-trained model dari keras applicatiom
+- Akurasi model sebesar 90%
 - Model telah diintegrasikan ke dalam aplikasi mobile
 
 ## 🚀 Hasil 
