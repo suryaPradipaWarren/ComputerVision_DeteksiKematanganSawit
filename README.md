@@ -17,9 +17,9 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
 ---
 
 ## 🎯 Tujuan
-- # Deteksi Kematangan
+- ### Deteksi Kematangan
   Mendeteksi tingkat kematangan buah sawit yang mana terdapat beberapa tingkat yaitu mentah, mengkal, matang dan busuk
-- # Meningkatkan efesiensi
+- ### Meningkatkan efesiensi
   Dengan adanya aplikasi ini dapat meningkatkan efisiensi dari penyortiran kematangan
 
 ---
@@ -36,9 +36,10 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
 ---
 
 ## 🚀 Hasil 
-- # Grafik akurasi dan loss model
+- ### Grafik akurasi dan loss model
   <img src="Result/Akurasi dan Loss.png" width="500"/>
-- # Confusion Matrix
+- ### Confusion Matrix
+  <img src="Result/CM.png" width="500"/>
 - # Aplikasi
 
 ---
