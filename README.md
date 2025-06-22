@@ -26,7 +26,7 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
 
 ## ✅ Manfaat
 - Membantu petani dalam mendeteksi tingkat kematangan buah sawit secara cepat dan tepat.
-- 
+  
 
 
 ## 📁 Dataset
