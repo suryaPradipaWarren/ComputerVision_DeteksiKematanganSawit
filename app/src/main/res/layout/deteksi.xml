@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAF8F1"
+    android:gravity="center_horizontal">
+
+    <!-- Navbar -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2E7032"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="12dp"
+        android:elevation="6dp">
+
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/back"
+            android:tint="#FFFFFF"
+            android:contentDescription="Kembali" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Deteksi"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <!-- Judul Tengah -->
+    <TextView
+        android:id="@+id/judul_deteksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DETEKSI KEMATANGAN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#2E7032"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Gambar -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_image"
+        android:scaleType="centerCrop"
+        android:clipToOutline="true"
+        android:contentDescription="Gambar Deteksi"
+        android:elevation="4dp" />
+
+    <!-- Tombol Kamera & Galeri -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="32dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnKamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kamera"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#2E7032"
+            android:elevation="4dp"
+            app:icon="@drawable/ic_kamera"
+            app:iconTint="#FFFFFF"
+            app:iconPadding="8dp"
+            app:iconGravity="textStart"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="12dp"
+            android:layout_marginEnd="12dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Galeri"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#5D4037"
+            android:elevation="4dp"
+            app:icon="@drawable/ic_gallery"
+            app:iconTint="#FFFFFF"
+            app:iconPadding="8dp"
+            app:iconGravity="textStart"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="12dp"/>
+    </LinearLayout>
+
+    <!-- Tombol Deteksi -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDeteksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deteksi Kematangan"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:backgroundTint="#FFC107"
+        android:elevation="6dp"
+        app:icon="@drawable/ic_detect"
+        app:iconTint="#000000"
+        app:iconPadding="12dp"
+        app:iconGravity="textStart"
+        android:layout_marginTop="36dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"/>
+
+
+</LinearLayout>

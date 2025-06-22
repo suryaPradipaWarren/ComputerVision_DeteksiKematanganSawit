@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PA" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- warna, font, dll -->
+    </style>
+
+    <!-- Tema khusus splash screen -->
+    <style name="Theme.PA.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

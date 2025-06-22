@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177147453648",
+    "project_id": "paandroid13",
+    "storage_bucket": "paandroid13.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177147453648:android:8e380ff23d2fbcffb0fed5",
+        "android_client_info": {
+          "package_name": "com.example.pa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgShwngyRQvoUsKJwPwNOGFYOkZD0T7_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

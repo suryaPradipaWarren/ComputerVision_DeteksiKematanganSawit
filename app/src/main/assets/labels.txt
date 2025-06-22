@@ -1,0 +1,4 @@
+0 Mengkal
+1 Mentah
+2 Matang
+3 Busuk

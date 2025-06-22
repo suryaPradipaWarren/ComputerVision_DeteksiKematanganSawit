@@ -1,0 +1,77 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="12dp"
+    android:paddingHorizontal="8dp"
+    android:background="#FFFFFF"
+    android:divider="?android:attr/dividerVertical"
+    android:showDividers="middle"
+    android:elevation="2dp">
+
+    <!-- Kolom Gambar -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imagePrediction"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_image"
+            android:clipToOutline="true"
+            android:contentDescription="Gambar Deteksi" />
+    </FrameLayout>
+
+    <!-- Kolom Hasil + Akurasi -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil"
+            android:textColor="#2E7032"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/textAccuracy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akurasi: 90%"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <!-- Kolom Tanggal -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
