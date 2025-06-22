@@ -44,7 +44,11 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
   <p align="center">
   <img src="Result/Halaman Home.jpg" width="250"/>
   <img src="Result/Halaman Deteksi.jpg" width="250"/>
-  <img src="Result/Halaman Hasil.jpg.png" width="250"/>
+  <img src="Result/Halaman Hasil.jpg" width="250"/>
+</p>
+  <p align="center">
+  <img src="Result/Halaman Histori.jpg" width="250"/>
+  <img src="Result/Halaman Tentang.jpg" width="250"/>
 </p>
 
 ---
