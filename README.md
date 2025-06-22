@@ -1,4 +1,4 @@
-# Computer Vision Project Progress Report (25%)
+# Computer Vision Project Final Report
 
 ## Project Name
 *Aplikasi Deteksi Kematangan Buah Sawit*
