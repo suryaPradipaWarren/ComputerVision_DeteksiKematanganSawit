@@ -56,8 +56,3 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
 </p>
 
 ---
-
-## 📈 Progress Saat Ini
-- Progres Proyek: *25%*
-- Model CNN telah mulai dikembangkan dan diuji dengan dataset awal dari Kaggle.
-- Proses preprocessing dan augmentasi gambar sedang dilakukan.
