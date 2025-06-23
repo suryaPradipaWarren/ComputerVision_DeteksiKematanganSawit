@@ -27,13 +27,23 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
 ## ✅ Manfaat
 - Membantu petani dalam mendeteksi tingkat kematangan buah sawit secara cepat dan tepat.
   
-
-
 ## 📁 Dataset
 - Dataset dikumpulkan secara manual melalui google
 - Total dataset seanyak 2.360 gambar dengan pembagian tiap kelas sebanyak 590
 
+## ⚙️ Tools
+- Pengembangan Model: **Collab**
+- Deployment: **Tensorflow Lite**
+- Sistem: **Aplikasi**
+- Pengembangan Aplikasi: **Android Studio**
+
 ---
+
+## 📓 Fitur
+- Deteksi
+  Pada halaman ini dapat mendeteksi tingkat kematangan dari buah sawit
+- Histori
+  Menyimpan hasil deteksi tingkat kematangan buah sawit
 
 ## 🎯 Progress
 - Model CNN telah dikembangkan dengan menggunakan pre-trained model dari keras applicatiom
