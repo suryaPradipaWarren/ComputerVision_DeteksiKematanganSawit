@@ -33,6 +33,7 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
 
 ## ⚙️ Tools
 - Pengembangan Model: **Collab**
+- Model: **Pre-Trained CNN**
 - Deployment: **Tensorflow Lite**
 - Sistem: **Aplikasi**
 - Pengembangan Aplikasi: **Android Studio**
