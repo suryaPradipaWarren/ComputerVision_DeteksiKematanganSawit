@@ -40,9 +40,9 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
 ---
 
 ## 📓 Fitur
-- Deteksi
+- ### Deteksi
   Pada halaman ini dapat mendeteksi tingkat kematangan dari buah sawit
-- Histori
+- ### Histori
   Menyimpan hasil deteksi tingkat kematangan buah sawit
 
 ## 🎯 Progress
