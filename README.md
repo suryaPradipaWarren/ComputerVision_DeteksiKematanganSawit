@@ -1,7 +1,7 @@
 # Computer Vision Project Final Report
 
 ## Project Name
-*Aplikasi Deteksi Kematangan Buah Sawit*
+*Oil Palm Fruit Ripeness Detection Application*
 
 ## Student Name
 *Surya Pradipa Warren*
@@ -11,48 +11,48 @@
 
 ---
 
-## 📌 Latar Belakang
-Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhatikan adalah tingkat kematangan buah sawit. Tingkat kematangan ini sangat penting dalam menentukan kualitas dan kuantitas minyak yang dihasilkan. Buah sawit yang dipanen pada tingkat kematangan yang tepat akan menghasilkan minyak dengan rendemen tinggi dan kualitas terbaik.
+## 📌 Background
+In the palm oil production process, one crucial aspect that must be considered is the ripeness level of the oil palm fruit. This ripeness level plays a vital role in determining the quality and quantity of the oil produced. Harvesting the fruit at the optimal stage of ripeness results in high oil yield and the best quality.
 
 ---
 
-## 🎯 Tujuan
-- ### Deteksi Kematangan
-  Mendeteksi tingkat kematangan buah sawit yang mana terdapat beberapa tingkat yaitu mentah, mengkal, matang dan busuk
-- ### Meningkatkan efesiensi
-  Dengan adanya aplikasi ini dapat meningkatkan efisiensi dari penyortiran kematangan
+## 🎯 Objectives
+- ### Ripeness Detection
+  Detecting the ripeness level of oil palm fruit, which includes several stages: unripe, under-ripe, ripe, and rotten.
+- ### Increasing Efficiency
+  This application aims to increase the efficiency of ripeness sorting.
 
 ---
 
-## ✅ Manfaat
-- Membantu petani dalam mendeteksi tingkat kematangan buah sawit secara cepat dan tepat.
-  
+## ✅ Benefits
+- Assisting farmers in detecting the ripeness level of oil palm fruit quickly and accurately.
+
 ## 📁 Dataset
-- Dataset dikumpulkan secara manual melalui google
-- Total dataset seanyak 2.360 gambar dengan pembagian tiap kelas sebanyak 590
+- The dataset was collected manually via Google.
+- The total dataset consists of 2,360 images, with 590 images for each class.
 
 ## ⚙️ Tools
-- Pengembangan Model: **Collab**
+- Model Development: **Colab**
 - Model: **Pre-Trained CNN**
-- Deployment: **Tensorflow Lite**
-- Sistem: **Aplikasi**
-- Pengembangan Aplikasi: **Android Studio**
+- Deployment: **TensorFlow Lite**
+- System: **Application**
+- Application Development: **Android Studio**
 
 ---
 
-## 📓 Fitur
-- ### Deteksi
-  Pada halaman ini dapat mendeteksi tingkat kematangan dari buah sawit
-- ### Histori
-  Menyimpan hasil deteksi tingkat kematangan buah sawit
+## 📓 Features
+- ### Detection
+  This page allows the detection of the ripeness level of oil palm fruit.
+- ### History
+  Stores the detection results of oil palm fruit ripeness.
 
 ## 🎯 Progress
-- Model CNN telah dikembangkan dengan menggunakan pre-trained model dari keras applicatiom
-- Akurasi model sebesar 90%
-- Model telah diintegrasikan ke dalam aplikasi mobile
+- A CNN model has been developed using a pre-trained model from Keras Applications.
+- The model achieved an accuracy of 90%.
+- The model has been integrated into a mobile application.
 
-## 🚀 Hasil 
-- ### Grafik akurasi dan loss model
+## 🚀 Results 
+- ### Accuracy and Loss Graph
   <p align="center">
   <img src="Result/Akurasi dan Loss.png" width="500"/>
   </p>
@@ -60,7 +60,7 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
   <p align="center">
   <img src="Result/CM.png" width="500"/>
   </p>
-- ### Aplikasi
+- ### Application
   <p align="center">
   <img src="Result/Halaman Home.jpg" width="250"/>
   <img src="Result/Halaman Deteksi.jpg" width="250"/>
@@ -70,5 +70,3 @@ Pada proses produksi minyak sawit, salah satu aspek krusial yang harus diperhati
   <img src="Result/Halaman Histori.jpg" width="250"/>
   <img src="Result/Halaman Tentang.jpg" width="250"/>
 </p>
-
----
